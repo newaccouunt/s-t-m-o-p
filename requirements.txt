@@ -1,0 +1,4 @@
+flask==3.0.3
+curl_cffi==0.7.4
+urllib3==2.2.3
+gunicorn==22.0.0
