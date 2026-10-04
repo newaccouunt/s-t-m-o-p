@@ -1,12 +1,6 @@
-cd ~
-rm -f bronx.py
-cat > bronx.py << 'PYEOF'
 #!/usr/bin/env python3
 # ══════════════════════════════════════════════════════════════
 #   🔥 BRONX ULTRA v23.0 — PROXY ENFORCED + 24/7 AUTO
-#   ✅ Accounts ONLY via Vault Working Proxies (NO local IP)
-#   ✅ Automation runs 24/7 infinite (auto-fetch when empty)
-#   ✅ All v22 features intact
 # ══════════════════════════════════════════════════════════════
 import json, random, string, time, re, urllib3, os, threading
 from datetime import datetime, timezone, timedelta
@@ -17,6 +11,8 @@ from curl_cffi import requests as cf
 urllib3.disable_warnings()
 app = Flask(__name__)
 BASE = "https://freefollower.net"
+
+# ... baaki pura code ...
 
 # ─────────────────────────────────────────────────────────────
 #  CONFIG
@@ -2388,4 +2384,4 @@ if __name__ == "__main__":
     print("═" * 62 + "\n")
     if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False, threaded=True)
+    app.run(host="0.0.0.0", port=5000, debug=False, threaded=True)
